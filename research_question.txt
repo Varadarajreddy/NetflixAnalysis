@@ -1,0 +1,27 @@
+Group: group 171
+
+Question
+========
+
+RQ: Is there a difference in the proportion of Tv Show and Movie available in Netflix over the last decade?
+
+Null hypothesis: There is no difference in the proportions of Tv Show, and Movie available in Netflix over the last decade. 
+
+Alternative hypothesis: There is difference in the proportions of Tv Show, and Movie available in Netflix over the last decade. 
+
+Dataset
+=======
+
+URL: https://www.kaggle.com/shivamb/netflix-shows
+
+Column Headings:
+
+```
+> netflix_titles <-read.csv("netflix_titles.csv")
+> colnames(netflix_titles)
+ [1] "show_id"      "type"         "title"       
+ [4] "director"     "cast"         "country"     
+ [7] "date_added"   "release_year" "rating"      
+[10] "duration"     "listed_in"    "description" 
+
+```
