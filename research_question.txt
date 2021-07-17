@@ -1,5 +1,3 @@
-Group: group 171
-
 Question
 ========
 
